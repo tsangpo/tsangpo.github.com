@@ -1,4 +1,11 @@
 
 .parcel-cache
+.vite
 node_modules
-/dist
+.DS_Store
+dist
+dist-ssr
+*.local
+
+# Local Netlify folder
+.netlify
