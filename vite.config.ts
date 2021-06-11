@@ -10,11 +10,12 @@ export default defineConfig({
   build: {
     outDir: resolve(__dirname, "dist"),
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, "src/index.html"),
-        cv: resolve(__dirname, "src/cv/index.html"),
-        wx: resolve(__dirname, "src/wx/index.html"),
-      },
+      input: [
+        resolve(__dirname, "src/index.html"),
+        resolve(__dirname, "src/cv/index.html"),
+        resolve(__dirname, "src/cv/edu.html"),
+        resolve(__dirname, "src/wx/index.html"),
+      ],
     },
   },
 });
