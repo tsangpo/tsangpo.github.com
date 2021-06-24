@@ -35,6 +35,7 @@ function App() {
         ></textarea>
 
         <button
+          className="bg-hex-b2a8bb"
           onClick={() => {
             window.getSelection()?.selectAllChildren(refOutput.current!);
             document.execCommand("copy");
