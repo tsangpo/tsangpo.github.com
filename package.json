@@ -1,5 +1,5 @@
 {
-  "name": "my-astro-project-using-bun",
+  "name": "tsangpo.net",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,6 +12,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.4.4"
+    "astro": "^6.4.2"
   }
 }
